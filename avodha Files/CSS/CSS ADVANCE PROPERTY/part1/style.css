@@ -1,0 +1,15 @@
+div{
+    height: 400px;
+    width: 100%;
+    border: 2px solid rgb(24, 23, 24);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGd7wWa2lGU6jjTCLs9XqZGiW9EDa_16fAAw&usqp=CAU), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtE0_0dbUuiO6otNwmDHLiuwTBIua8lUTTbA&usqp=CAU);
+    border-top-right-radius: 63px;
+    border-bottom-left-radius: 80px;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    if you dont give repaeat and go for no repeat it will apear in corners background-size: cover;
+}
+

@@ -1,0 +1,23 @@
+p::first-line{
+    background-color: yellow;
+    color: tomato;
+}
+p::first-letter{
+    color: green;
+    font-size: xx-large;
+}
+
+p::before{
+    content:url(smiley.png);
+}
+
+h6::after{
+    content:url(smiley.png);
+}
+li::marker{
+    color: red;
+}
+*::selection{
+    background-color: turquoise;
+    color: white;
+}

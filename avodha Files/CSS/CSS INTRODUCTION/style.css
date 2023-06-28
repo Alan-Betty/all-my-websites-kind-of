@@ -1,0 +1,17 @@
+    body{
+        background-color: lightblue;
+    }
+    .head{
+        text-align: center;
+        background-color: lightpink;
+    }
+    #set{
+        color: Black;
+        font-size: 44px;
+    }
+    .div{
+        background-color: white;
+    }
+    span{
+        background-color: lightgreen;
+    }

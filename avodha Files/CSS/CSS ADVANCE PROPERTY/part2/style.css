@@ -1,0 +1,25 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGd7wWa2lGU6jjTCLs9XqZGiW9EDa_16fAAw&usqp=CAU);
+    background-repeat: no-repeat;
+    color: turquoise;
+}
+
+.div1{
+    border: 2px solid black;
+    height: 100px;
+    margin: 12px;
+    background-color: yellow;
+}
+
+.div2{
+    border: 2px solid black;
+    height: 100px;
+    margin: 12px;
+    background-color: transparent;
+}
+.div3{
+    border: 2px solid black;
+    height: 100px;
+    margin: 12px;
+    background-color: currentColor;
+}

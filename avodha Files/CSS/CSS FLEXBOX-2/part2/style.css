@@ -1,0 +1,17 @@
+.container{
+    margin: 5px;
+    display: flex;
+    background-color: lightblue;
+    border: 1px solid black;
+    height: 300px;
+}
+
+.container>div{
+    background-color: white;
+    color: black;
+    width: 100px;
+    margin: 12px;
+    text-align: center;
+    font-size: 33px;
+
+}

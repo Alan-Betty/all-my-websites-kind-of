@@ -1,0 +1,6 @@
+a[target]{
+    background-color: turquoise;
+}
+a[title~=flower]{
+    background-color: royalblue;
+}

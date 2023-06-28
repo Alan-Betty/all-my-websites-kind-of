@@ -1,0 +1,10 @@
+img{
+    border-radius: 1000px;
+    display: block;
+    margin: auto;
+    -webkit-box-reflect: below;
+}
+
+img:hover{
+    border: 5px solid black;
+}

@@ -1,0 +1,72 @@
+*{
+    overflow: auto;
+}
+div.percent {
+    height: 200px;
+    position: relative;
+    width: 20%;
+    background-color: lightblue;
+    animation-name: box;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out 2s;
+
+}
+
+@keyframes box {
+    0% {
+        background-color: lightblue;
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        background-color: lightcoral;
+        left: 200px;
+        top: 0px;
+    }
+
+    50% {
+        background-color: lightyellow;
+        left: 200px;
+        top: 200px;
+    }
+
+    75%{
+        background-color: lightpink;
+        left: 0px;
+        top: 200px;
+    }
+
+    100% {
+        background-color: lightgreen;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+    {
+    you can animate in two ways and dont neccesarily have to give that movement wuth top and all
+}
+
+div.fromto {
+    height: 200px;
+    position: relative;
+    width: 20%;
+    margin-top: 750px;
+    background-color: lightblue;
+    animation-name: box2;
+    animation-duration: 6s;
+}
+
+@keyframes box2 {
+    from {
+        background-color: lightblue;
+    }
+
+    to {
+        background-color: lightgreen;
+    }
+}

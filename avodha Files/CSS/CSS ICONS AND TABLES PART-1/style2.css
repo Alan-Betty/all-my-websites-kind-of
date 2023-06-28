@@ -1,0 +1,22 @@
+table,
+th,
+td {
+    border: 1px solid black;
+    width: 50%;
+    border-collapse: collapse;
+}
+
+th {
+    height: 45px;
+    border-bottom: 1px solid black;
+}
+
+td {
+    height: 35px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+table {
+    width: 100%;
+}

@@ -1,0 +1,24 @@
+:root {
+    --c1: turquoise;
+    --c2: lightblue;
+    --c3: lightgreen;
+    --c4: black;
+    --c5: white;
+    --btnc: lightgreen;
+}
+
+body {
+    background-color: var(--c3);
+}
+
+h1 {
+    border-bottom: 2px solid var(--c4);
+}
+
+p {
+    background-color: var(--c5);
+}
+
+button {
+    background-color: var(--btnc);
+}

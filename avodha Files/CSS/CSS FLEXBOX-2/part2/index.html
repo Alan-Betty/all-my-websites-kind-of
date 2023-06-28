@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- the difference between align-items and align content is that align items align the items but align-content aligns the flex lines -->
+    <!-- order
+        flex-grow
+        flex-shrink
+        flex-basis
+        flex
+        align self -->
+    <div class="container">
+        <div style="order: 3;">1</div>
+        <div style="order: 2;">2</div>
+        <div style="order: 4;">3</div>
+        <div style="order: 1;">4</div>
+    </div>
+
+    <div class="container">
+        <div style="flex-grow: 1;">1</div>
+        <div style="flex-grow: 1;">2</div>
+        <div style="flex-grow: 7;">3</div>
+        <div style="flex-grow: 1;">4</div>
+    </div>
+
+    <div class="container">
+        <div>1</div>
+        <div style="align-self: flex-end;">2</div>
+        <div style="align-self: flex-start;">3</div>
+        <div>4</div>
+    </div>
+
+</body>
+
+</html>

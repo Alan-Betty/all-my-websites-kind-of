@@ -1,0 +1,21 @@
+.page{
+    display: inline;
+}
+
+.page a{
+    color: black;
+    text-decoration: none;
+    padding:18px;
+}
+
+.page a:hover{
+    background-color: turquoise;
+    color: white;
+}
+p{
+    height: 400px;
+    width: 50%;
+    border: 2px solid black;
+    resize: both;
+    overflow: auto;
+}

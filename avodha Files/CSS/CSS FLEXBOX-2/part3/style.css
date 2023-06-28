@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: lightblue;
+    text-align: center;
+    font-size: 33px;
+}
+
+.left{
+    background-color: red;
+    flex: 50%;
+}
+
+.right{
+    background-color: khaki;
+    flex: 50%;
+}
+
+@media (max-width:800px){
+    .container{
+        flex-direction: column;
+    }
+}

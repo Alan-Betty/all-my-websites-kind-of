@@ -1,0 +1,7 @@
+h1{
+    border: 12px solid green;
+    border-radius: 42px;
+    padding: 25px 45px;
+    margin: 100px 200px;
+    outline: 40px solid rgb(41, 61, 87)
+}

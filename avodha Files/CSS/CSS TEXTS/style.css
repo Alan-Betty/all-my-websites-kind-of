@@ -1,0 +1,19 @@
+h1{
+   color: lightblue;
+   background-color: cadetblue;
+   text-align: justify;
+}
+.justify p{
+    border: 12px solid green;
+    width: 264px;
+    text-align: justify;
+    padding: 16px;
+    text-align-last: left;
+    direction: ltr;
+    unicode-bidi: bidi-override;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-indent: 110px;
+    line-height: 41px
+    text-shadow: coral 2px 2px;
+}
